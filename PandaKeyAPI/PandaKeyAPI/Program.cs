@@ -1,0 +1,22 @@
+using PandaKey.Api.Data;
+using PandaKey.Api.Repositories;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// DI: connection factory + repositories
+builder.Services.AddSingleton<SqlConnectionFactory>();
+builder.Services.AddScoped<UsersRepository>();
+builder.Services.AddScoped<ZonesRepository>();
+builder.Services.AddScoped<AccessEventsRepository>();
+
+var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
+app.MapControllers();
+app.Run();
