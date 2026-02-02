@@ -7,7 +7,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// DI: connection factory + repositories
 builder.Services.AddSingleton<SqlConnectionFactory>();
 builder.Services.AddScoped<UsersRepository>();
 builder.Services.AddScoped<ZonesRepository>();

@@ -2,7 +2,7 @@
 
 public sealed class CreateAccessEventRequest
 {
-    public DateTime? EventTime { get; set; } // optional
+    public DateTime? EventTime { get; set; }
     public int? UserId { get; set; }
     public int AccessPointId { get; set; }
     public int? CredentialId { get; set; }

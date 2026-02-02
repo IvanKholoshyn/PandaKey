@@ -7,6 +7,6 @@ public sealed class AccessEventDto
     public int? UserId { get; set; }
     public int AccessPointId { get; set; }
     public int? CredentialId { get; set; }
-    public string Result { get; set; } = ""; // GRANTED/DENIED
+    public string Result { get; set; } = "";
     public string? Reason { get; set; }
 }
