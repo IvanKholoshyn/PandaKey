@@ -12,6 +12,10 @@ builder.Services.AddScoped<UsersRepository>();
 builder.Services.AddScoped<ZonesRepository>();
 builder.Services.AddScoped<AccessEventsRepository>();
 
+builder.Services.AddScoped<AccessDecisionRepository>();
+builder.Services.AddScoped<PandaKey.Api.Services.AccessDecisionService>();
+
+
 var app = builder.Build();
 
 app.UseSwagger();
