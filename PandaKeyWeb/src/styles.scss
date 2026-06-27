@@ -1,0 +1,12 @@
+:root {
+  --pk-primary: #2f6f5e;
+  --pk-primary-dark: #245547;
+  --pk-admin: #c79a52;
+}
+body { background: #f2f6f4; }
+.btn-pk { background: var(--pk-primary); border-color: var(--pk-primary); color: #fff; }
+.btn-pk:hover { background: var(--pk-primary-dark); border-color: var(--pk-primary-dark); color: #fff; }
+.text-pk { color: var(--pk-primary); }
+.navbar-user { background: #1f2421; }
+.navbar-admin { background: var(--pk-admin); }
+.cursor-pointer { cursor: pointer; }

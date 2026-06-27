@@ -1,4 +1,4 @@
-﻿namespace PandaKey.Api.Models;
+namespace PandaKey.Api.Models;
 
 public sealed class UserDto
 {
@@ -8,5 +8,6 @@ public sealed class UserDto
     public string Email { get; set; } = "";
     public string? Phone { get; set; }
     public bool IsActive { get; set; }
+    public string Role { get; set; } = "user";
     public DateTime CreatedAt { get; set; }
 }

@@ -1,0 +1,32 @@
+{
+  "app": { "title": "PandaKey", "logout": "Вийти", "admin": "Адмінка", "userView": "Користувач", "adminView": "Адмін" },
+  "auth": {
+    "login": "Вхід", "register": "Реєстрація",
+    "loginOrEmail": "Логін або email", "email": "Email", "password": "Пароль",
+    "fullName": "Повне ім'я", "phone": "Телефон",
+    "signIn": "Увійти", "createAccount": "Створити акаунт", "doRegister": "Зареєструватися",
+    "haveAccount": "Вже є акаунт? Увійти",
+    "errorLogin": "Невірний email або пароль", "errorRegister": "Не вдалося зареєструватися"
+  },
+  "zones": {
+    "title": "Зони доступу", "request": "Запросити доступ", "details": "Деталі",
+    "accessPoint": "Точка доступу", "back": "← Зони доступу",
+    "decisionGranted": "Доступ дозволено", "decisionDenied": "Доступ відхилено",
+    "recent": "Останні події точки", "empty": "Зони відсутні",
+    "eventLogged": "Подію записано в журнал"
+  },
+  "events": { "title": "Журнал подій", "time": "Час", "point": "Точка", "result": "Результат", "reason": "Причина", "all": "Усі", "mine": "Мої", "empty": "Подій немає" },
+  "profile": { "title": "Профіль", "department": "Відділ", "status": "Статус", "active": "Активний", "inactive": "Неактивний", "memberSince": "У системі з" },
+  "admin": {
+    "users": "Користувачі", "allZones": "Усі зони", "events": "Журнал", "backup": "Резервне копіювання",
+    "search": "Пошук...", "name": "Ім'я", "surname": "Прізвище", "roles": "Ролі", "actions": "Дії",
+    "makeAdmin": "Зробити адміном", "removeAdmin": "Зняти адміна", "delete": "Видалити",
+    "addZone": "+ Додати зону", "zone": "Зона", "description": "Опис", "points": "Точок доступу", "rules": "Активних правил", "owner": "Власник",
+    "exportTitle": "Експортувати JSON", "exportDesc": "Завантажити повний дамп системи у форматі JSON.",
+    "exportBtn": "Експортувати JSON",
+    "importTitle": "Імпортувати JSON", "importDesc": "Завантажити раніше експортований файл і відновити стан системи.",
+    "importBtn": "Імпортувати JSON",
+    "importDone": "Імпорт завершено: оновлено {{count}} записів у {{tables}} таблицях."
+  },
+  "lang": { "uk": "UA", "en": "EN" }
+}

@@ -1,0 +1,32 @@
+{
+  "app": { "title": "PandaKey", "logout": "Sign out", "admin": "Admin", "userView": "User", "adminView": "Admin" },
+  "auth": {
+    "login": "Sign in", "register": "Register",
+    "loginOrEmail": "Login or email", "email": "Email", "password": "Password",
+    "fullName": "Full name", "phone": "Phone",
+    "signIn": "Sign in", "createAccount": "Create account", "doRegister": "Register",
+    "haveAccount": "Already have an account? Sign in",
+    "errorLogin": "Invalid email or password", "errorRegister": "Registration failed"
+  },
+  "zones": {
+    "title": "Access zones", "request": "Request access", "details": "Details",
+    "accessPoint": "Access point", "back": "← Access zones",
+    "decisionGranted": "Access granted", "decisionDenied": "Access denied",
+    "recent": "Recent point events", "empty": "No zones",
+    "eventLogged": "Event written to the log"
+  },
+  "events": { "title": "Event log", "time": "Time", "point": "Point", "result": "Result", "reason": "Reason", "all": "All", "mine": "Mine", "empty": "No events" },
+  "profile": { "title": "Profile", "department": "Department", "status": "Status", "active": "Active", "inactive": "Inactive", "memberSince": "Member since" },
+  "admin": {
+    "users": "Users", "allZones": "All zones", "events": "Log", "backup": "Backup",
+    "search": "Search...", "name": "Name", "surname": "Surname", "roles": "Roles", "actions": "Actions",
+    "makeAdmin": "Make admin", "removeAdmin": "Revoke admin", "delete": "Delete",
+    "addZone": "+ Add zone", "zone": "Zone", "description": "Description", "points": "Access points", "rules": "Active rules", "owner": "Owner",
+    "exportTitle": "Export JSON", "exportDesc": "Download a full system dump in JSON format.",
+    "exportBtn": "Export JSON",
+    "importTitle": "Import JSON", "importDesc": "Upload a previously exported file and restore the system state.",
+    "importBtn": "Import JSON",
+    "importDone": "Import finished: {{count}} records across {{tables}} tables."
+  },
+  "lang": { "uk": "UA", "en": "EN" }
+}
